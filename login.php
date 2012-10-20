@@ -4,7 +4,7 @@
     $password = $_POST['password'];
 
     $sql = "SELECT * FROM user WHERE username = $usernamepost
-            AND pwd = $password";
+            AND password = $password";
             
             
     $result = mysql_query($sql);
