@@ -1,3 +1,4 @@
+<?php include "db.php"; ?>
 <html>
 <head>
 <title>Workshop Kuntum</title>
@@ -51,6 +52,7 @@
 
 </body>
 </html>
+
 
 
 
