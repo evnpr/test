@@ -7,7 +7,7 @@
             AND pwd = $password";
     $result = mysql_query($sql);
     while($row = mysql_fetch_array($result)){
-        $login = 1;
+        $login = true;
         $_SESSION['username'] = $usernamepost;
     }
 
