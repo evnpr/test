@@ -1,4 +1,10 @@
 <?php include "db.php"; ?>
+
+<?php
+if (!isset($_SESSION['username'])){
+    header("Location: index.php");
+}
+?>
 <html>
 <head>
 <title>Workshop Kuntum</title>
@@ -53,6 +59,7 @@
 
 </body>
 </html>
+
 
 
 
