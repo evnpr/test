@@ -12,7 +12,7 @@
 <body>
 <div id="header">
     <img src="" />
-    <span style="float: right;">Register</span>
+    <span style="float: right;"><a href="register.php">Register</a></span>
 </div>
 
 <div id="container">
