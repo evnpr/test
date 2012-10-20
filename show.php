@@ -14,7 +14,8 @@
 <body>
 <div id="header">
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQs1cmHC867CVc0fLaSimKNGSagPNFd2lhERT5rqovMOQ4mKtw_" height="40" width="100" />
-    <span style="float: right; margin-right: 30px; margin-top: 10px;"><a href="register.php">Register</a></span>
+    Welcome <?php echo $_SESSION['username']; ?>,
+    <span style="float: right; margin-right: 30px; margin-top: 10px;"><a href="logout.php">Log Out</a></span>
 </div>
 
 <div id="container">
@@ -52,6 +53,7 @@
 
 </body>
 </html>
+
 
 
 
