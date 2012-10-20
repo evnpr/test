@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="header">
-    <img src="" height="40" width="40" />
+    <img src="" height="40" width="100" />
     <span style="float: right; margin-right: 30px; margin-top: 10px;"><a href="register.php">Register</a></span>
 </div>
 
