@@ -1,7 +1,7 @@
 <?php include "db.php"; ?>
 <?php
     $usernamepost = $_POST['username'];
-    $pwd = md5($_POST['pwd']);
+    $pwd = $_POST['pwd'];
     $email = $_POST['email'];
     
     $result = mysql_query("SELECT * FROM user WHERE username = '$usernamepost'");
@@ -15,6 +15,7 @@
     $_SESSION['username'] = $usernamepost;
     header("Location: show.php");
 ?>
+
 
 
 
