@@ -1,7 +1,7 @@
 <?php
     $usernamepost = $_POST['username'];
-    $pwd = md5($_POST['pwd']);
-    $email = $_POST['email'];
+    $description = $_POST['description'];
+    $jumlah = $_POST['jumlah'];
     
     
     $sql = "INSERT INTO user(username,pwd,email) VALUES('$usernamepost','$pwd','$email')";
