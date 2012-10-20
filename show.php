@@ -7,5 +7,8 @@ $sql = "SELECT * FROM product";
     
     
     while($row = mysql_fetch_array($result)){
-        $_SESSION['username'] = $usernamepost;
+        
+        echo $row->name;
+        echo "<br>";
+        
     }
