@@ -10,9 +10,10 @@
       //  return;
     //}
     
-    $sql = "INSERT INTO user(username,pwd,email) VALUES('$usernamepost','$pwd','$email')";
+    $sql = "INSERT INTO user(username,password,email) VALUES('$usernamepost','$pwd','$email')";
     mysql_query($sql);
     header("Location: show.php");
 ?>
+
 
 
