@@ -22,7 +22,7 @@
 
 <form action="login.php" method="POST">
 Nama Produk : <input type="text" name="username" /><br><br>
-Description : <textarea name="username"></textarea><br><br>
+Description : <textarea name="description"></textarea><br><br>
 Jumlah Barang : <select name="jumlah">
 
 <?php
@@ -48,6 +48,7 @@ for($i=0; $i<10; $i++){
 
 </body>
 </html>
+
 
 
 
