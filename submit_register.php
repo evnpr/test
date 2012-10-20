@@ -4,7 +4,7 @@
     $pwd = md5($_POST['pwd']);
     $email = $_POST['email'];
     
-    $result = mysql_query("SELECT * FROM user WHERE username = 'evan'");
+    $result = mysql_query("SELECT * FROM user WHERE username = '$usernamepost'");
     while($row = mysql_fetch_array($result)){
         $_SESSION['alert'] = 'exist';
         header("Location: shoe.php");
