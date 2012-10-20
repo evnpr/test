@@ -12,7 +12,7 @@
 <body>
 <div id="header">
     <img src="" />
-    <span>Register</span>
+    <span style="float: right;">Register</span>
 </div>
 
 <div id="container">
