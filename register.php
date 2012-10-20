@@ -39,7 +39,6 @@ function validate(){
     if(pwd!=cpwd){
         alert("password not match");
     }
-    
 }
 </script>
 
