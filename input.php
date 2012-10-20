@@ -21,7 +21,7 @@
 
 
 <form action="login.php" method="POST">
-Nama Produk : <input type="text" name="username" /><br><br><br>
+Nama Produk : <input type="text" name="username" /><br><br>
 Description : <textarea name="username"></textarea><br><br>
 Jumlah Barang : <select name="jumlah">
 
