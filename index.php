@@ -1,3 +1,5 @@
+<?php include "db.php"; ?>
+
 <html>
 <head>
 <title>Workshop Kuntum</title>
@@ -35,4 +37,5 @@ password : <input type="password" name="pwd" id="pwd"/><br>
 
 </body>
 </html>
+
 
