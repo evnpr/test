@@ -7,7 +7,7 @@
     $result = mysql_query("SELECT * FROM user WHERE username = 'evan'");
     while($row = mysql_fetch_array($result)){
         $_SESSION['alert'] = 'exist';
-        header("Location: successpage.php");
+        header("Location: showe.php");
         return;
     }
     
@@ -17,3 +17,4 @@
     $_SESSION['alert'] = 'success';
     header("Location: show.php");
 ?>
+
