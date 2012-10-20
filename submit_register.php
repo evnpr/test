@@ -12,8 +12,6 @@
     
     $sql = "INSERT INTO user(username,pwd,email) VALUES('$usernamepost','$pwd','$email')";
     mysql_query($sql);
-    echo $_SESSION['username'];
-    $_SESSION['alert'] = 'success';
     header("Location: show.php");
 ?>
 
