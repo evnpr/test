@@ -35,7 +35,7 @@ for($i=0; $i<10; $i++){
     }
 ?>
 
-</select><br>
+</select><br><br>
 <input type="submit" value="submit" />
 </form>
 </center>
