@@ -2,7 +2,7 @@
 <?php
 
     $usernamepost = $_POST['username'];
-    $password = $_POST['password'];
+    $password = $_POST['pwd'];
 
     $sql = "SELECT * FROM user WHERE username = $usernamepost
             AND password = $password";
@@ -18,5 +18,6 @@
     mysql_close($con);
     
 ?>
+
 
 
