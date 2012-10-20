@@ -1,3 +1,4 @@
+<?php include "db.php"; ?>
 <html>
 <head>
 <title>Workshop Kuntum</title>
@@ -46,6 +47,7 @@ function validate(){
 
 </body>
 </html>
+
 
 
 
