@@ -5,6 +5,7 @@
 #header{
     height: 40px;
     background-color: #eee;
+    margin-bottom: 50px;
 }
 </style>
 
