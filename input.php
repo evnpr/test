@@ -4,7 +4,7 @@ Jumlah Barang : <select name="jumlah">
 <?php
 for($i=0; $i<10; $i++){
 ?>
-<option value=""></option>
+<option value="<?php echo $i ?>"><?php echo $i ?></option>
 </select><br>
 <?php
     }
