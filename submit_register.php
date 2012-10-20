@@ -6,8 +6,7 @@
     
     $result = mysql_query("SELECT * FROM user WHERE username = '$usernamepost'");
     while($row = mysql_fetch_array($result)){
-        $_SESSION['alert'] = 'exist';
-        header("Location: shoe.php");
+        header("Location: show.php");
         return;
     }
     
