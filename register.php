@@ -32,6 +32,17 @@ email : <input type="text" name="email"/><br>
 <div id="footer">
 </div>
 
+<script>
+function validate(){
+    pwd = document.getElementById("pwd").innerHTML
+    cpwd = document.getElementById("cpwd").innerHTML
+    if(pwd!=cpwd){
+        alert("password not match");
+    }
+    
+}
+</script>
 
 </body>
 </html>
+
