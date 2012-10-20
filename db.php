@@ -1,12 +1,13 @@
 <?php
 session_start();
-$con = mysql_connect("localhost","hungryjack","ee4717");
+$con = mysql_connect("localhost","kuntum","kuntum");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
   }
 
-mysql_select_db("hungryjack", $con);
+mysql_select_db("kuntum", $con);
 ?>
+
 
 
