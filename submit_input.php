@@ -1,5 +1,5 @@
 <?php
-    $usernamepost = $_POST['name'];
+    $name = $_POST['name'];
     $description = $_POST['description'];
     $jumlah = $_POST['jumlah'];
     
