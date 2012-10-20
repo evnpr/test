@@ -1,6 +1,13 @@
 <html>
 <head>
 <title>Workshop Kuntum</title>
+<style>
+#header{
+    height: 40px;
+    background-color: blue;
+}
+</style>
+
 </head>
 <body>
 <div id="header">
