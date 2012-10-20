@@ -1,3 +1,4 @@
+<?php include "db.php"; ?>
 <?php
     $name = $_POST['nama'];
     $description = $_POST['description'];
@@ -7,4 +8,5 @@
     $sql = "INSERT INTO product(name,description,jumlah) VALUES('$name','$description','$jumlah')";
     mysql_query($sql);
     header("Location: show.php");
+
 
