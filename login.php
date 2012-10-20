@@ -2,7 +2,7 @@
 <?php
 
     $usernamepost = $_POST['username'];
-    $password = md5($_POST['password']);
+    $password = $_POST['password'];
 
     $sql = "SELECT * FROM user WHERE username = $usernamepost
             AND password = $password";
