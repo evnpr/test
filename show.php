@@ -31,6 +31,7 @@
 <h3><?php echo $row->name; ?></h3>
 <p><?php echo $row->description; ?></p>
 <p><?php echo $row->jumlah; ?></p>
+<hr>
 </div>
 
 
