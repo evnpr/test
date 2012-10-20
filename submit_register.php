@@ -14,5 +14,5 @@
     mysql_query($sql);
     echo $_SESSION['username'];
     $_SESSION['alert'] = 'success';
-    header("Location: successpage.php");
+    header("Location: show.php");
 ?>
