@@ -6,4 +6,4 @@
     
     $sql = "INSERT INTO user(username,pwd,email) VALUES('$usernamepost','$pwd','$email')";
     mysql_query($sql);
-    header("Location: successpage.php");
+    header("Location: show.php");
