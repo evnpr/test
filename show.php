@@ -37,9 +37,9 @@ if (!isset($_SESSION['username'])){
 ?>
 
 <div>
-<h3><?php echo $row->nama; ?></h3>
-<p><?php echo $row->description; ?></p>
-<p><?php echo $row->jumlah; ?></p>
+<h3><?php echo $row['nama']; ?></h3>
+<p><?php echo $row['description']; ?></p>
+<p><?php echo $row['jumlah']; ?></p>
 <hr>
 </div>
 
