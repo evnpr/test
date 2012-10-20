@@ -2,7 +2,7 @@
 Nama Produk : <input type="text" name="username" /><br>
 Jumlah Barang : <select name="jumlah">
 <?php
-for($i=0; $i>10; $i++){
+for($i=0; $i<10; $i++){
 ?>
 <option value="<?php echo $i ?>"><?php echo $i ?></option>
 </select><br>
