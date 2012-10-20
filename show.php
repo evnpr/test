@@ -41,7 +41,7 @@
 ?>    
     
 
-
+<a href="input.php">input items?</a>
 </div>
 
 
