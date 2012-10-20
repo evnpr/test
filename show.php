@@ -21,17 +21,17 @@
 
 <?php
 
-$sql = "SELECT * FROM product";
-            
-            
+    $sql = "SELECT * FROM product";
     $result = mysql_query($sql);
-    
-    
     while($row = mysql_fetch_array($result)){
         
 ?>
 
-<div
+<div>
+<h3><?php echo $row->name; ?></h3>
+<p><?php echo $row->description; ?></p>
+<p><?php echo $row->jumlah; ?></p>
+</div>
 
 
 <?php
