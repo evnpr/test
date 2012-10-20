@@ -2,7 +2,7 @@
 <?php
 
     $usernamepost = $_POST['username'];
-    $password = $_POST['password'];
+    $password = md5($_POST['password')];
 
     $sql = "SELECT * FROM user WHERE username = $usernamepost
             AND password = $password";
@@ -20,4 +20,5 @@
     mysql_close($con);
     
 ?>
+
 
