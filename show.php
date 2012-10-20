@@ -8,7 +8,12 @@ $sql = "SELECT * FROM product";
     
     while($row = mysql_fetch_array($result)){
         
-        echo $row->name;
-        echo "<br>";
+?>
+
+<div
+
+
+<?php
         
     }
+
