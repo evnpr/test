@@ -29,7 +29,7 @@ if (!isset($_SESSION['username'])){
 <center>
 
 
-<form action="login.php" method="POST">
+<form action="submit_input.php" method="POST">
 Nama Produk : <input type="text" name="name" /><br><br>
 Description : <textarea name="description"></textarea><br><br>
 Jumlah Barang : <select name="jumlah">
