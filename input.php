@@ -1,3 +1,4 @@
+<?php include "db.php"; ?>
 <html>
 <head>
 <title>Workshop Kuntum</title>
@@ -48,6 +49,7 @@ for($i=0; $i<10; $i++){
 
 </body>
 </html>
+
 
 
 
