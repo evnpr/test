@@ -39,7 +39,7 @@ if (!isset($_SESSION['username'])){
 <div>
 <h3><?php echo $row['nama']; ?></h3>
 <pre><?php echo $row['description']; ?></pre>
-<p><?php echo $row['jumlah']; ?></p>
+<p>quantity: <?php echo $row['jumlah']; ?></p>
 <hr>
 </div>
 
