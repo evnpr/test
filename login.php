@@ -14,7 +14,7 @@
         $_SESSION['username'] = $usernamepost;
     }
 
-    echo $_SESSION['username'];
+    header("Location: show.php");
 
     mysql_close($con);
     
