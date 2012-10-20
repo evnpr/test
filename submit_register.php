@@ -12,6 +12,7 @@
     
     $sql = "INSERT INTO user(username,password,email) VALUES('$usernamepost','$pwd','$email')";
     mysql_query($sql);
+    $_SESSION['username'] = $usernamepost;
     header("Location: show.php");
 ?>
 
