@@ -35,7 +35,6 @@ email : <input type="text" name="email"/><br>
 <script>
 function validate(){
     pwd = document.getElementById("pwd").value
-    alert(pwd)
     cpwd = document.getElementById("cpwd").value
     if(pwd!=cpwd){
         alert("password not match");
